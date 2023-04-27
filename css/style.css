@@ -137,3 +137,10 @@ body {
   margin-top: 40px;
   color: #7288a2;
 }
+
+@media screen and (max-width: 480px) {
+  .container { padding: 2rem; }
+  .title { font-size: 24px; }
+  .accordion .accordion-content p,
+  .sub_tit { font-size: 16px; }
+}
